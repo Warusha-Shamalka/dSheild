@@ -51,5 +51,8 @@ crash.log
 *.sqlite
 *.sqlite3
 
+#other 
+docs/
+
 # Air / live-reload
 tmp/
