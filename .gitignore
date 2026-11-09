@@ -26,7 +26,7 @@ profile.cov
 .agents/
 .codex/
 .aws/
-docs/
+/docs/
 
 # OS
 .DS_Store
