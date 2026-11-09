@@ -23,6 +23,10 @@ profile.cov
 .vscode/
 *.swp
 *.swo
+.agents/
+.codex/
+.aws/
+docs/
 
 # OS
 .DS_Store
