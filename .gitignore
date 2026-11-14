@@ -1,0 +1,62 @@
+# Binaries & build output
+/bin/
+/dist/
+dSheild
+dsheild
+*.exe
+*.test
+*.out
+
+# Go workspace & vendor
+vendor/
+go.work
+go.work.sum
+
+# Test & coverage
+coverage.txt
+coverage.out
+*.coverprofile
+profile.cov
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+.agents/
+.codex/
+.aws/
+/docs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env & secrets
+.env
+.env.*
+*.pem
+*.key
+!*.example.env
+
+# Scan output / reports
+/reports/
+*.sarif
+*.json.tmp
+
+# Terraform (if used by rules/tests)
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+#other 
+docs/
+
+# Air / live-reload
+tmp/
