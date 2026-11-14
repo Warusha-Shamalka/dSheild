@@ -28,6 +28,10 @@ profile.cov
 .aws/
 /docs/
 
+# Folder READMEs (keep the root project README)
+**/README.md
+!/README.md
+
 # OS
 .DS_Store
 Thumbs.db
