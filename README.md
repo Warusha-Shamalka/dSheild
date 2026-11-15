@@ -1,2 +1,6 @@
 # dSheild
-A DevSecOps security scanner for detecting vulnerabilities and misconfigurations in Terraform, Kubernetes manifests, and Dockerfiles.
+
+A Go-based infrastructure-as-code security scanner in development. The goal is to
+detect security misconfigurations in Dockerfiles, Kubernetes manifests, and
+Terraform files before deployment, without executing the input files.
+
