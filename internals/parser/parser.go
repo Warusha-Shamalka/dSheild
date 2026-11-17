@@ -7,8 +7,10 @@ import (
 ) 
 type Instruction struct{
 	InstructionId string
+	Keyword       string
+	Argument      string
 	LineNumber    int
-	Lexeme        string
+	Raw           string
 }
 
 type File struct{
