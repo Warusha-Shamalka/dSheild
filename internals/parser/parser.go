@@ -6,11 +6,12 @@ import (
 	"os"
 ) 
 type Instruction struct{
-	InstructionId string
-	Keyword       string
-	Argument      string
-	LineNumber    int
-	Raw           string
+	InstructionId   string
+	Keyword         string
+	Argument        string
+	StartLineNumber int
+	EndLineNumber   int
+	Raw             string
 }
 
 type File struct{
